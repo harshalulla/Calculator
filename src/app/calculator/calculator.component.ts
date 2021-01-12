@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calculator.component.css']
 })
 export class CalculatorComponent implements OnInit {
-
+  title = 'FirstDemoApp';
   currentNumber = '0';
   firstOperand = null;
   operator = null;
